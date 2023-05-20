@@ -1,0 +1,261 @@
+z
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image:url('https://giphy.com/gifs/spongebob-spongebob-squarepants-season-6-xT3i0TD5DArdYCxGQE') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fill;
+    
+   
+  }
+.top{
+  cursor: pointer;
+
+}header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button {
+    margin-right: 20px;
+  }
+
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .profile p {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+  }
+  
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  .post img {
+    max-width: 50%;
+  }
+  
+  .post h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .post p {
+    color: #000000b6;
+  }
+  .like {
+    background-color:rgb(236, 8, 8);
+    color: rgb(0, 0, 0);
+    border:0;
+    border-radius:5px;
+    width:100px;
+    height:35;
+    cursor:pointer;
+    margin-right:10px;
+}
+.like:active{ 
+      opacity:0.5;
+}
+.like:hover{
+        opacity:0.7;
+}
+.comment{
+  text-align: center;
+  margin: 5px;
+}
+.share{
+  background-color: rgb(78, 78, 81);
+  border-style: solid;
+  color: antiquewhite;
+  border: radius 5px;
+  width:105px;
+  height:35;
+  cursor:pointer;
+  margin-right:10px;
+  
+}
+.share{
+  opacity:0.5;
+}
+.share{
+  opacity:0.7;
+}
+.share:hover{
+  opacity:0.5;
+}
+.shares:active{
+  opacity:0.7;
+}
+.follow-button {
+  padding: 10px 20px;
+  background-color: #0818f7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.follow-button:hover {
+  background-color: #0818f7;
+}
+.send-message-button {
+  padding: 10px 20px;
+  background-color: #def321;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.send-message-button:hover {
+  background-color: #def321;
+}
+.send-message-button:active {
+  background-color: #def321;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #eaeaea;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.add-friend-button {
+  padding: 10px 20px;
+  background-color: #FF9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.add-friend-button:hover {
+  background-color: #38342f;
+}
+.add-friend-button:active {
+  background-color: #574f43;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  min-width: 160px;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

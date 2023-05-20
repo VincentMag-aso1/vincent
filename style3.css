@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(sign\ up\ image.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fill;
+    
+}
+
+h2 {
+    color: blanchedalmond;
+    text-align: center;
+  }
+  
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+label {
+    display: block;
+    color: blanchedalmond;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:#305b63;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: #305b63;
+    color: blanchedalmond;
+   
+  }
+  
